@@ -9,7 +9,7 @@ export const PAGE_HOME = 0;
 export const PAGE_PROJECTS = 1;
 export const PAGE_SHOWCASE = 2;
 
-export const WEBSITE_BASE = "/teemu-harkonen-visual-arts";
+export const WEBSITE_BASE = "/visual-arts";
 
 export const APP_PAGES: AppPage[] = [
   {

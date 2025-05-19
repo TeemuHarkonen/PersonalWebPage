@@ -1,5 +1,17 @@
 # Personal webpage
 
+This is the source code for my personal webpage.
+
+## Technologies
+
+
+
+## Credits
+
+Designed by: Teemu Härkönen
+Written by: Jani Härkönen
+
+
 ## Protocols
 
 ### Changing the base URL of the webpage
