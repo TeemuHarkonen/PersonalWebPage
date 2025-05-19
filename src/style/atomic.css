@@ -238,3 +238,7 @@
 .border-radius-medium-length {
   border-radius: var(--length-medium);
 }
+
+.opacity-0 {
+  opacity: 0;
+}

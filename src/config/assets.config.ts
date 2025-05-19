@@ -43,17 +43,17 @@ import socialsEmail from "../asset/icon/socials/socials-email.svg";
 // import projectFlaxwood_3 from "../asset/projects/flaxwood/flaxwood-3.jpg";
 // import projectFlaxwood_4 from "../asset/projects/flaxwood/flaxwood-4.jpg";
 
-import showAthleteAction from "../asset/showcase/show-athlete.jpg";
-import showAthleteCloseup from "../asset/showcase/show-athlete-closeup.jpg";
-import showBlacksmithAction from "../asset/showcase/show-blacksmith.jpg";
-import showBlacksmithCloseup from "../asset/showcase/show-blacksmith-closeup.jpg";
-import showCar from "../asset/showcase/show-car.jpg";
-import showMarket from "../asset/showcase/show-market.jpg";
-import showPhone from "../asset/showcase/show-phone-product.jpg";
-import showDress from "../asset/showcase/show-dress.jpg";
-import showGun from "../asset/showcase/show-gun.jpg";
-import showBottles from "../asset/showcase/show-bottles.jpg";
-import showMannequin from "../asset/showcase/show-mannequin.jpg";
+// import showAthleteAction from "../asset/showcase/show-athlete.jpg";
+// import showAthleteCloseup from "../asset/showcase/show-athlete-closeup.jpg";
+// import showBlacksmithAction from "../asset/showcase/show-blacksmith.jpg";
+// import showBlacksmithCloseup from "../asset/showcase/show-blacksmith-closeup.jpg";
+// import showCar from "../asset/showcase/show-car.jpg";
+// import showMarket from "../asset/showcase/show-market.jpg";
+// import showPhone from "../asset/showcase/show-phone-product.jpg";
+// import showDress from "../asset/showcase/show-dress.jpg";
+// import showGun from "../asset/showcase/show-gun.jpg";
+// import showBottles from "../asset/showcase/show-bottles.jpg";
+// import showMannequin from "../asset/showcase/show-mannequin.jpg";
 
 const cdnPath: string = "https://raw.githubusercontent.com/TeemuHarkonen/PersonalWebPageAssets/refs/heads/main/Assets/";
 
@@ -61,6 +61,7 @@ function cdn(path: string): string {
   return cdnPath + path;
 }
 
+  // CDN version
 export const ASSETS = {
   icon: {
     language: {
@@ -83,8 +84,6 @@ export const ASSETS = {
     logo: "/logo.svg"
   },
   homepage: {
-    // professionalTitle: homeGrassland,
-    // slogan: homePlane,
     professionalTitle: cdn("Frontpage/Grassland.jpg"),
     slogan: cdn("Frontpage/Plane.jpg")
   },
@@ -94,12 +93,7 @@ export const ASSETS = {
       cdn("Projects/Mekri/MekriImage2.jpg"),
       cdn("Projects/Mekri/MekriImage3.jpg"),
       cdn("Projects/Mekri/MekriImage4.jpg"),
-      cdn("Projects/Mekri/MekriImage5.jpg"),
-      // projectMekri_1,
-      // projectMekri_2,
-      // projectMekri_3,
-      // projectMekri_4,
-      // projectMekri_5
+      cdn("Projects/Mekri/MekriImage5.jpg")
     ],
     caveVR: [
       cdn("Projects/CaveVR/CaveVR1.jpg"),
@@ -108,12 +102,6 @@ export const ASSETS = {
       cdn("Projects/CaveVR/CaveVR4.jpg"),
       cdn("Projects/CaveVR/CaveVR5.jpg"),
       cdn("Projects/CaveVR/CaveVR6.jpg")
-      // projectCaveVR_1,
-      // projectCaveVR_2,
-      // projectCaveVR_3,
-      // projectCaveVR_4,
-      // projectCaveVR_5,
-      // projectCaveVR_6,
     ],
     eko: [
       cdn("Projects/Eko/Eko1.jpg"),
@@ -123,55 +111,108 @@ export const ASSETS = {
       cdn("Projects/Eko/Eko5.jpg"),
       cdn("Projects/Eko/Eko6.jpg"),
       cdn("Projects/Eko/Eko7.jpg")
-      // projectEko_1,
-      // projectEko_2,
-      // projectEko_3,
-      // projectEko_4,
-      // projectEko_5,
-      // projectEko_6,
-      // projectEko_7
     ],
     escapeRoom: [
       cdn("Projects/EscapeRoom/EscapeRoom1.png"),
       cdn("Projects/EscapeRoom/EscapeRoom2.png"),
       cdn("Projects/EscapeRoom/EscapeRoom3.png")
-      // projectEscapeRoom_1,
-      // projectEscapeRoom_2,
-      // projectEscapeRoom_3,
     ],
     flaxwood: [
       cdn("Projects/Flaxwood/Flaxwood1.jpg"),
       cdn("Projects/Flaxwood/Flaxwood2.jpg"),
       cdn("Projects/Flaxwood/Flaxwood3.jpg"),
       cdn("Projects/Flaxwood/Flaxwood4.jpg")
-      // projectFlaxwood_1,
-      // projectFlaxwood_2,
-      // projectFlaxwood_3,
-      // projectFlaxwood_4
     ]
   },
   showcase: {
-    athleteAction: showAthleteAction,
-    athleteCloseup: showAthleteCloseup,
-    blacksmithAction: showBlacksmithAction,
-    blacksmithCloseup: showBlacksmithCloseup,
-    car: showCar,
-    market: showMarket,
-    phone: showPhone,
-    dress: showDress,
-    gun: showGun,
-    bottles: showBottles,
-    mannequin: showMannequin
-    // athleteAction: cdn("Showcases/Athlete.jpg"),
-    // athleteCloseup: cdn("Showcases/AhtleteCloseup.jpg"),
-    // blacksmithAction: cdn("Showcases/Blacksmith.jpg"),
-    // blacksmithCloseup: cdn("Showcases/BlacksmithCloseup.jpg"),
-    // car: cdn("Showcases/Car.jpg"),
-    // market: cdn("Showcases/Market.jpg"),
-    // phone: cdn("Showcases/PhoneProduct.jpg"),
-    // dress: cdn("Showcases/Dress.jpg"),
-    // gun: cdn("Showcases/Gun.jpg"),
-    // bottles: cdn("Showcases/Bottles.jpg"),
-    // mannequin: cdn("Showcases/Mannequin.jpg")
+    athleteAction: cdn("Showcases/Athlete.jpg"),
+    athleteCloseup: cdn("Showcases/AhtleteCloseup.jpg"),
+    blacksmithAction: cdn("Showcases/Blacksmith.jpg"),
+    blacksmithCloseup: cdn("Showcases/BlacksmithCloseup.jpg"),
+    car: cdn("Showcases/Car.jpg"),
+    market: cdn("Showcases/Market.jpg"),
+    phone: cdn("Showcases/PhoneProduct.jpg"),
+    dress: cdn("Showcases/Dress.jpg"),
+    gun: cdn("Showcases/Gun.jpg"),
+    bottles: cdn("Showcases/Bottles.jpg"),
+    mannequin: cdn("Showcases/Mannequin.jpg")
   }
 };
+
+  // Local version
+// export const ASSETS = {
+//   icon: {
+//     language: {
+//       flag: {
+//         finnish: flagFinland,
+//         english: flagUK
+//       }
+//     },
+//     util: {
+//       arrowUp: iconArrowUp,
+//       arrowTriangleDown: iconTriangleArrowDown,
+//       close: iconClose,
+//       menuHamburger: iconMenuHamburger
+//     },
+//     socials: {
+//       linkedin: socialsLinkedIn,
+//       channel: socialsChannel,
+//       email: socialsEmail
+//     },
+//     logo: "/logo.svg"
+//   },
+//   homepage: {
+//     professionalTitle: homeGrassland,
+//     slogan: homePlane,
+//   },
+//   projects: {
+//     mekri: [
+//       projectMekri_1,
+//       projectMekri_2,
+//       projectMekri_3,
+//       projectMekri_4,
+//       projectMekri_5
+//     ],
+//     caveVR: [
+//       projectCaveVR_1,
+//       projectCaveVR_2,
+//       projectCaveVR_3,
+//       projectCaveVR_4,
+//       projectCaveVR_5,
+//       projectCaveVR_6,
+//     ],
+//     eko: [
+//       projectEko_1,
+//       projectEko_2,
+//       projectEko_3,
+//       projectEko_4,
+//       projectEko_5,
+//       projectEko_6,
+//       projectEko_7
+//     ],
+//     escapeRoom: [
+//       projectEscapeRoom_1,
+//       projectEscapeRoom_2,
+//       projectEscapeRoom_3,
+//     ],
+//     flaxwood: [
+//       projectFlaxwood_1,
+//       projectFlaxwood_2,
+//       projectFlaxwood_3,
+//       projectFlaxwood_4
+//     ]
+//   },
+//   showcase: {
+//     athleteAction: showAthleteAction,
+//     athleteCloseup: showAthleteCloseup,
+//     blacksmithAction: showBlacksmithAction,
+//     blacksmithCloseup: showBlacksmithCloseup,
+//     car: showCar,
+//     market: showMarket,
+//     phone: showPhone,
+//     dress: showDress,
+//     gun: showGun,
+//     bottles: showBottles,
+//     mannequin: showMannequin
+//   }
+// };

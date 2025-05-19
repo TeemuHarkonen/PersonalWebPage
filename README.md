@@ -2,7 +2,13 @@
 
 This is the source code for my personal webpage.
 
+
+
 ## Technologies
+
+Tech stack: TypeScript, React, CSS, HTML and Vite.
+
+Large image assets are hosted on GitHub.
 
 
 
@@ -10,12 +16,23 @@ This is the source code for my personal webpage.
 
 Designed by: Teemu Härkönen
 
-Written by: Jani Härkönen
+Written by: [Jani Härkönen](https://github.com/janiharkonen)
+
 
 
 ## Protocols
 
+### Running
+
+1. Install all dependencies via `npm install`
+2. Run via `npm run dev`
+
+
+
 ### Deployment
+
+1. Run `npm run deploy` to build and deploy the page to GitHub Pages.
+
 
 
 ### Changing the base URL of the webpage
