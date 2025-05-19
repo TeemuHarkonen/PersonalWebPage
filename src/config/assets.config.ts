@@ -58,7 +58,6 @@ import socialsEmail from "../asset/icon/socials/socials-email.svg";
 const cdnPath: string = "https://raw.githubusercontent.com/TeemuHarkonen/PersonalWebPageAssets/refs/heads/main/Assets/";
 
 function cdn(path: string): string {
-  console.log(cdnPath + path);
   return cdnPath + path;
 }
 
@@ -91,7 +90,11 @@ export const ASSETS = {
   },
   projects: {
     mekri: [
-      // "https://raw.githubusercontent.com/JaniHarkonen/test-repo/refs/heads/main/cave-vr/cave-vr-3.jpg",
+      cdn("Projects/Mekri/MekriImage1.jpg"),
+      cdn("Projects/Mekri/MekriImage2.jpg"),
+      cdn("Projects/Mekri/MekriImage3.jpg"),
+      cdn("Projects/Mekri/MekriImage4.jpg"),
+      cdn("Projects/Mekri/MekriImage5.jpg"),
       // projectMekri_1,
       // projectMekri_2,
       // projectMekri_3,
@@ -99,6 +102,12 @@ export const ASSETS = {
       // projectMekri_5
     ],
     caveVR: [
+      cdn("Projects/CaveVR/CaveVR1.jpg"),
+      cdn("Projects/CaveVR/CaveVR2.jpg"),
+      cdn("Projects/CaveVR/CaveVR3.jpg"),
+      cdn("Projects/CaveVR/CaveVR4.jpg"),
+      cdn("Projects/CaveVR/CaveVR5.jpg"),
+      cdn("Projects/CaveVR/CaveVR6.jpg")
       // projectCaveVR_1,
       // projectCaveVR_2,
       // projectCaveVR_3,
@@ -107,6 +116,13 @@ export const ASSETS = {
       // projectCaveVR_6,
     ],
     eko: [
+      cdn("Projects/Eko/Eko1.jpg"),
+      cdn("Projects/Eko/Eko2.jpg"),
+      cdn("Projects/Eko/Eko3.jpg"),
+      cdn("Projects/Eko/Eko4.jpg"),
+      cdn("Projects/Eko/Eko5.jpg"),
+      cdn("Projects/Eko/Eko6.jpg"),
+      cdn("Projects/Eko/Eko7.jpg")
       // projectEko_1,
       // projectEko_2,
       // projectEko_3,
@@ -116,11 +132,18 @@ export const ASSETS = {
       // projectEko_7
     ],
     escapeRoom: [
+      cdn("Projects/EscapeRoom/EscapeRoom1.png"),
+      cdn("Projects/EscapeRoom/EscapeRoom2.png"),
+      cdn("Projects/EscapeRoom/EscapeRoom3.png")
       // projectEscapeRoom_1,
       // projectEscapeRoom_2,
       // projectEscapeRoom_3,
     ],
     flaxwood: [
+      cdn("Projects/Flaxwood/Flaxwood1.jpg"),
+      cdn("Projects/Flaxwood/Flaxwood2.jpg"),
+      cdn("Projects/Flaxwood/Flaxwood3.jpg"),
+      cdn("Projects/Flaxwood/Flaxwood4.jpg")
       // projectFlaxwood_1,
       // projectFlaxwood_2,
       // projectFlaxwood_3,
@@ -139,5 +162,16 @@ export const ASSETS = {
     // gun: showGun,
     // bottles: showBottles,
     // mannequin: showMannequin
+    athleteAction: cdn("Showcases/Athlete.jpg"),
+    athleteCloseup: cdn("Showcases/AhtleteCloseup.jpg"),
+    blacksmithAction: cdn("Showcases/Blacksmith.jpg"),
+    blacksmithCloseup: cdn("Showcases/BlacksmithCloseup.jpg"),
+    car: cdn("Showcases/Car.jpg"),
+    market: cdn("Showcases/Market.jpg"),
+    phone: cdn("Showcases/PhoneProduct.jpg"),
+    dress: cdn("Showcases/Dress.jpg"),
+    gun: cdn("Showcases/Gun.jpg"),
+    bottles: cdn("Showcases/Bottles.jpg"),
+    mannequin: cdn("Showcases/Mannequin.jpg")
   }
 };

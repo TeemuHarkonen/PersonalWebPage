@@ -23,7 +23,7 @@ export default function RenditionCard(props: Props): ReactNode {
         alt={alt}
       />
       <div className="text-overlay font-size-title c-glyph-major">
-        <div>
+        <div className="mr-length-extra-large">
           {descriptionRows.map((row: string, index: number) => {
             return (
               <span key={index}>
