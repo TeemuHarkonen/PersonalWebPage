@@ -1,6 +1,7 @@
 import { useEffect, useState, type ReactNode } from "react";
 import "./ProjectCard.css";
 import DisplayCarousel from "../DisplayCarousel/DisplayCarousel";
+import loadImage from "../../utils/loadImage";
 
 
 type Props = {
@@ -16,24 +17,17 @@ export default function ProjectCard(props: Props): ReactNode {
   const description: string = props.description;
   const tech: string = props.tech;
 
-  const [hasLoaded, setLoaded] = useState<boolean>(false);
+  const [firstLoaded, setFirstLoaded] = useState<boolean>(false);
 
   useEffect(() => {
-    Promise.all(images.map((src: string) => {
-      return new Promise((res, rej) => {
-        const image = new Image();
-        image.src = src;
-        image.onload = res;
-        image.onerror = rej;
-      });
-    })).then(() => setLoaded(true));
+    images.map((src: string) => loadImage(src).then(() => setFirstLoaded(true)));
   }, []);
 
   return (
     <article className="w-100 bgc-emphasis c-glyph-major">
       <div className="project-card-layout">
         <aside className="aspect-ratio-16-10 w-100">
-          {hasLoaded && (
+          {firstLoaded && (
             <DisplayCarousel>
               {images.map((src: string) => {
                 return (

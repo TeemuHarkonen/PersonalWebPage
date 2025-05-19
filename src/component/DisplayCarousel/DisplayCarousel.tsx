@@ -13,7 +13,6 @@ export default function DisplayCarousel(props: Props): ReactNode {
   const intervalDuration: string = props.intervalDuration ?? DEFAULT_INTERVAL_DURATION;
 
   const [imageIndex, setImageIndex] = useState<number>(0);
-
   
   // Hold's whether the first image has been switched.
   // If true, the previous image wont be faded out yet, 
@@ -45,7 +44,7 @@ export default function DisplayCarousel(props: Props): ReactNode {
       </div>
       <div
         key={"carousel-display-fade-index_" + previousIndex}
-        className={"display-carousel-image " + ((isFirstSwitch ? "opacity-0" : "fade-out-effect"))}
+        className={"display-carousel-image " + (isFirstSwitch ? "opacity-0" : "fade-out-effect")}
         style={{animationDuration: "1s"}}
       >
         {previousDisplay}
