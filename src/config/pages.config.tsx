@@ -9,17 +9,19 @@ export const PAGE_HOME = 0;
 export const PAGE_PROJECTS = 1;
 export const PAGE_SHOWCASE = 2;
 
+export const WEBSITE_BASE = "/teemu-harkonen-visual-arts";
+
 export const APP_PAGES: AppPage[] = [
   {
     id: "page-home",
-    link: "/PersonalWebPage"
+    link: WEBSITE_BASE
   },
   {
     id: "page-projects",
-    link: "/PersonalWebPage/projects"
+    link: WEBSITE_BASE + "/projects"
   },
   {
     id: "page-showcase",
-    link: "/PersonalWebPage/showcase"
+    link: WEBSITE_BASE + "/showcase"
   }
 ];
