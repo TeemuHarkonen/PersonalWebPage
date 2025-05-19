@@ -1,0 +1,43 @@
+{
+  "id": "eng",
+  "navigation": {
+    "page-home": "Home",
+    "page-projects": "Projects",
+    "page-showcase": "Showcase",
+    "page-contact": "Links"
+  },
+  "homepage": {
+    "professional-title": "Visual arts by \nTeemu Härkönen",
+    "slogan": "3D visuals for media projects"
+  },
+  "projects": {
+    "mekri": {
+      "title": "Megrin Matkailu Environment",
+      "description": "A 3D map of Mekrijärvi Saga Park. Modelled based off of a drone photoscan.",
+      "tech": "3ds Max, Substance Painter"
+    },
+    "caveVR": {
+      "title": "Cave VR Experience",
+      "description": "A concept of a VR experience for Outokumpu kaivosmuseo.",
+      "tech": "Unreal Engine 4, Photoshop, 3ds Max, Substance Painter"
+    },
+    "eko": {
+      "title": "Ekomiljöö Product Renders",
+      "description": "3D models of Ekomiljöö's sustainable outdoor saunas.",
+      "tech": "3ds Max"
+    },
+    "escapeRoom": {
+      "title": "Escape Room Animation",
+      "description": "A video animation for an escape room at Pakotarinat Joensuu.",
+      "tech": "3ds Max, Substance Painter"
+    },
+    "flaxwood": {
+      "title": "Flaxwood Product Render",
+      "description": "Concept render of a 3D-printable necklace for Flaxwood.",
+      "tech": "3ds Max"
+    }
+  },
+  "contact": {
+    "channel": "My channel"
+  }
+}

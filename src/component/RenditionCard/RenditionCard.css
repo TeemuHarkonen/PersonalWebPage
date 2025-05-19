@@ -1,0 +1,32 @@
+.text-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 4rem;
+  text-shadow: var(--shadow-major-highlight);
+  text-align: right;
+  font-weight: 200;
+}
+
+@media (max-width: 1230px) {
+  .text-overlay {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .text-overlay {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .text-overlay {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,9 @@
+.contact-info-container {
+  display: grid;
+  grid-template-columns: auto 2fr;
+
+
+  &:hover {
+    background-color: var(--color-highlighter);
+  }
+}

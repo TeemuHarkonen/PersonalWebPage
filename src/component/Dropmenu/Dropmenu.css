@@ -1,0 +1,39 @@
+@keyframes drop-down {
+  0% {
+    max-height: 0px;
+  }
+
+  100% {
+    max-height: 500px;
+  }
+}
+
+.dropmenu-container {
+  position: relative;
+  height: 100%;
+}
+
+.dropmenu-menu-container {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 1;
+  overflow: hidden;
+
+  animation-name: drop-down;
+  animation-timing-function: cubic-bezier(0, 0.5, 0.2, 0);
+  animation-duration: 1s;
+}
+
+.dropmenu-icon-container {
+  position: relative;
+  height: max-content;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 750px) {
+  .dropmenu-menu-container {
+    left: -100px;
+  }
+}

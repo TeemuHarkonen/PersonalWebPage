@@ -1,0 +1,43 @@
+{
+  "id": "fin",
+  "navigation": {
+    "page-home": "Etusivu",
+    "page-projects": "Projektit",
+    "page-showcase": "Showcase",
+    "page-contact": "Linkit"
+  },
+  "homepage": {
+    "professional-title": "Mediapalvelujen tuottaja \nTeemu Härkönen",
+    "slogan": "3D taidetta mediamateriaalin tuotantoon"
+  },
+  "projects": {
+    "mekri": {
+      "title": "Megrin Matkailu",
+      "description": "3D kartta Mekrijärven Saga Parkista. Perustuu droonin fotogrammetriamalliin.",
+      "tech": "3ds Max, Substance Painter"
+    },
+    "caveVR": {
+      "title": "Kaivos VR-Kokemus",
+      "description": "Konsepti virtuaalitodellisuuskokemuksesta Outokummun kaivosmuseolle.",
+      "tech": "Unreal Engine 4, Photoshop, 3ds Max, Substance Painter"
+    },
+    "eko": {
+      "title": "Ekomiljöö Tuotemallinnus",
+      "description": "3D-malleja Ekomiljöön kestävästi rakennetuista pihasaunoista.",
+      "tech": "3ds Max"
+    },
+    "escapeRoom": {
+      "title": "Pakohuone Animaatio",
+      "description": "Videoanimaatio pakohuonetta varten Pakotarinat Joensuulle.",
+      "tech": "3ds Max, Substance Painter"
+    },
+    "flaxwood": {
+      "title": "Flaxwood Tuotemallinnus",
+      "description": "Konsepti 3D-printattavasta kaulakorusta Flaxwoodille.",
+      "tech": "3ds Max"
+    }
+  },
+  "contact": {
+    "channel": "Kanavani"
+  }
+}

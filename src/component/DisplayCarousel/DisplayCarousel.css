@@ -1,0 +1,49 @@
+@keyframes zoom-in {
+  from {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(1.15, 1.15);
+  }
+}
+
+.zoom-in-effect {
+  animation-name: zoom-in;
+  animation-timing-function: linear;
+  transform: scale(1.1, 1.1);
+}
+
+.fade-out-effect {
+  animation-name: fade-out;
+  animation-timing-function: linear;
+  opacity: 0;
+}
+
+.display-carousel-bounds {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.display-carousel-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,54 @@
+:root {
+  --length-short: 2px;
+  --length-medium: 5px;
+  --length-large: 10px;
+  --length-extra-large: 20px;
+
+  --size-sprite: 16px;
+  --size-tiny: 32px;
+  --size-small: 48px;
+  --size-medium: 64px;
+  --size-standard: 96px;
+
+  --font-size-major: 1.25rem;
+  --font-size-plain: 1.5rem;
+  --font-size-banner: 2rem;
+  --font-size-title: 3.125rem;
+
+  --font-weight-plain: lighter;
+  --font-weight-title: 400;
+
+  --color-emphasis: black;
+  --color-standout: #444444;
+  --color-highlighter: #727272;
+  --color-glyph-major: white;
+  --color-glyph-highlight: #F2B900;
+  --color-glyph-link: #5EBCFF;
+
+  --font-formal: "Roboto", sans-serif;
+
+  --speed-brief: 0.5s;
+
+  --filter-glyph-major: brightness(0) saturate(100%) invert(100%) sepia(95%) saturate(0%) hue-rotate(283deg) brightness(113%) contrast(101%);
+  --filter-glyph-highlight: brightness(0) saturate(100%) invert(68%) sepia(75%) saturate(1193%) hue-rotate(4deg) brightness(98%) contrast(103%);
+
+  --shadow-major-highlight: 1px 1px 0px black;
+}
+
+@media (max-width: 1360px) {
+  :root {
+    --font-size-major: 1.25rem;
+    --font-size-plain: 1.2rem;
+    --font-size-banner: 2rem;
+    --font-size-title: 2.5rem;
+  }
+}
+
+@media (max-width: 560px) {
+  :root {
+    --font-size-major: 1.25rem;
+    --font-size-plain: 0.96rem;
+    --font-size-banner: 2rem;
+    --font-size-title: 2rem;
+  }
+}

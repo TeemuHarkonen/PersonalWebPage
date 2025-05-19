@@ -1,0 +1,240 @@
+@import url("./variables.css");
+
+.w-100 {
+  width: 100%;
+}
+
+.w-max-content {
+  width: max-content;
+}
+
+.h-max-content {
+  height: max-content;
+}
+
+.w-max-large-size {
+  max-width: 500px;
+}
+
+.h-medium-size {
+  height: var(--size-medium);
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-standard-size {
+  height: var(--size-standard);
+}
+
+.icon-size-sprite {
+  width: var(--size-sprite);
+  height: var(--size-sprite);
+}
+
+.icon-size-tiny {
+  width: var(--size-tiny);
+  height: var(--size-tiny);
+}
+
+.icon-size-small {
+  width: var(--size-small);
+  height: var(--size-small);
+}
+
+.bgc-emphasis {
+  background-color: var(--color-emphasis);
+}
+
+.bgc-glyph-major {
+  background-color: var(--color-glyph-major);
+}
+
+.bgc-standout {
+  background-color: var(--color-standout);
+}
+
+.bgc-highlighter {
+  background-color: var(--color-highlighter);
+}
+
+.c-glyph-major {
+  color: var(--color-glyph-major);
+}
+
+.c-glyph-link {
+  color: var(--color-glyph-link);
+}
+
+.highlightable-text {
+  color: var(--color-glyph-major);
+  transition: var(--speed-brief);
+  
+  &:hover {
+    color: var(--color-glyph-highlight);
+  }
+}
+
+.highlightable-text-icon {
+  filter: var(--filter-glyph-major);
+  
+  &:hover {
+    filter: var(--filter-glyph-highlight);
+  }
+}
+
+.transition-brief {
+  transition: var(--speed-brief);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.filter-glyph-major {
+  filter: var(--filter-glyph-major);
+}
+
+.aspect-ratio-1-1 {
+  aspect-ratio: 1 / 1;
+}
+
+.aspect-ratio-16-9 {
+  aspect-ratio: 16 / 9;
+}
+
+.aspect-ratio-16-10 {
+  aspect-ratio: 16 / 10;
+}
+
+.aspect-ratio-17-25 {
+  aspect-ratio: 17 / 25;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-justify-content-center {
+  justify-content: center;
+}
+
+.d-justify-content-end {
+  justify-content: end;
+}
+
+.d-align-items-center {
+  align-items: center;
+}
+
+.flex-direction-col {
+  flex-direction: column;
+}
+
+.gap-large {
+  gap: var(--length-large)
+}
+
+.non-button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+.font-size-major {
+  font-size: var(--font-size-major);
+}
+
+.font-size-banner {
+  font-size: var(--font-size-banner);
+}
+
+.font-size-title {
+  font-size: var(--font-size-title);
+}
+
+.mt-length-medium {
+  margin-top: var(--length-medium);
+}
+
+.mt-length-large {
+  margin-top: var(--length-large);
+}
+
+.mb-length-large {
+  margin-bottom: var(--length-large);
+}
+
+.ml-length-medium {
+  margin-left: var(--length-medium);
+}
+
+.mr-length-medium {
+  margin-right: var(--length-medium);
+}
+
+.mr-length-large {
+  margin-right: var(--length-large);
+}
+
+.mr-length-extra-large {
+  margin-right: var(--length-large);
+}
+
+.ml-length-extra-large {
+  margin-left: var(--length-extra-large);
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.absolute-box {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50%;
+  height: 50%;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.shadow-major-highlight {
+  text-shadow: var(--shadow-major-highlight);
+}
+
+.pad-length-large {
+  padding: var(--length-large);
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.border-radius-medium-length {
+  border-radius: var(--length-medium);
+}
