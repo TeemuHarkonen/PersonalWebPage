@@ -13,7 +13,7 @@ export const CONTACT_INFO: ContactInfo = {
   linkedin: {
     title: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com"
+    link: "https://www.linkedin.com/in/teemu-härkönen-581148282"
   },
   channel: {
     languageKey: "contact.channel",

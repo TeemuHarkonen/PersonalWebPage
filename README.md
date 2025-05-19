@@ -9,10 +9,14 @@ This is the source code for my personal webpage.
 ## Credits
 
 Designed by: Teemu Härkönen
+
 Written by: Jani Härkönen
 
 
 ## Protocols
+
+### Deployment
+
 
 ### Changing the base URL of the webpage
 

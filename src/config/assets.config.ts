@@ -43,17 +43,17 @@ import socialsEmail from "../asset/icon/socials/socials-email.svg";
 // import projectFlaxwood_3 from "../asset/projects/flaxwood/flaxwood-3.jpg";
 // import projectFlaxwood_4 from "../asset/projects/flaxwood/flaxwood-4.jpg";
 
-// import showAthleteAction from "../asset/showcase/show-athlete.jpg";
-// import showAthleteCloseup from "../asset/showcase/show-athlete-closeup.jpg";
-// import showBlacksmithAction from "../asset/showcase/show-blacksmith.jpg";
-// import showBlacksmithCloseup from "../asset/showcase/show-blacksmith-closeup.jpg";
-// import showCar from "../asset/showcase/show-car.jpg";
-// import showMarket from "../asset/showcase/show-market.jpg";
-// import showPhone from "../asset/showcase/show-phone-product.jpg";
-// import showDress from "../asset/showcase/show-dress.jpg";
-// import showGun from "../asset/showcase/show-gun.jpg";
-// import showBottles from "../asset/showcase/show-bottles.jpg";
-// import showMannequin from "../asset/showcase/show-mannequin.jpg";
+import showAthleteAction from "../asset/showcase/show-athlete.jpg";
+import showAthleteCloseup from "../asset/showcase/show-athlete-closeup.jpg";
+import showBlacksmithAction from "../asset/showcase/show-blacksmith.jpg";
+import showBlacksmithCloseup from "../asset/showcase/show-blacksmith-closeup.jpg";
+import showCar from "../asset/showcase/show-car.jpg";
+import showMarket from "../asset/showcase/show-market.jpg";
+import showPhone from "../asset/showcase/show-phone-product.jpg";
+import showDress from "../asset/showcase/show-dress.jpg";
+import showGun from "../asset/showcase/show-gun.jpg";
+import showBottles from "../asset/showcase/show-bottles.jpg";
+import showMannequin from "../asset/showcase/show-mannequin.jpg";
 
 const cdnPath: string = "https://raw.githubusercontent.com/TeemuHarkonen/PersonalWebPageAssets/refs/heads/main/Assets/";
 
@@ -151,27 +151,27 @@ export const ASSETS = {
     ]
   },
   showcase: {
-    // athleteAction: showAthleteAction,
-    // athleteCloseup: showAthleteCloseup,
-    // blacksmithAction: showBlacksmithAction,
-    // blacksmithCloseup: showBlacksmithCloseup,
-    // car: showCar,
-    // market: showMarket,
-    // phone: showPhone,
-    // dress: showDress,
-    // gun: showGun,
-    // bottles: showBottles,
-    // mannequin: showMannequin
-    athleteAction: cdn("Showcases/Athlete.jpg"),
-    athleteCloseup: cdn("Showcases/AhtleteCloseup.jpg"),
-    blacksmithAction: cdn("Showcases/Blacksmith.jpg"),
-    blacksmithCloseup: cdn("Showcases/BlacksmithCloseup.jpg"),
-    car: cdn("Showcases/Car.jpg"),
-    market: cdn("Showcases/Market.jpg"),
-    phone: cdn("Showcases/PhoneProduct.jpg"),
-    dress: cdn("Showcases/Dress.jpg"),
-    gun: cdn("Showcases/Gun.jpg"),
-    bottles: cdn("Showcases/Bottles.jpg"),
-    mannequin: cdn("Showcases/Mannequin.jpg")
+    athleteAction: showAthleteAction,
+    athleteCloseup: showAthleteCloseup,
+    blacksmithAction: showBlacksmithAction,
+    blacksmithCloseup: showBlacksmithCloseup,
+    car: showCar,
+    market: showMarket,
+    phone: showPhone,
+    dress: showDress,
+    gun: showGun,
+    bottles: showBottles,
+    mannequin: showMannequin
+    // athleteAction: cdn("Showcases/Athlete.jpg"),
+    // athleteCloseup: cdn("Showcases/AhtleteCloseup.jpg"),
+    // blacksmithAction: cdn("Showcases/Blacksmith.jpg"),
+    // blacksmithCloseup: cdn("Showcases/BlacksmithCloseup.jpg"),
+    // car: cdn("Showcases/Car.jpg"),
+    // market: cdn("Showcases/Market.jpg"),
+    // phone: cdn("Showcases/PhoneProduct.jpg"),
+    // dress: cdn("Showcases/Dress.jpg"),
+    // gun: cdn("Showcases/Gun.jpg"),
+    // bottles: cdn("Showcases/Bottles.jpg"),
+    // mannequin: cdn("Showcases/Mannequin.jpg")
   }
 };
