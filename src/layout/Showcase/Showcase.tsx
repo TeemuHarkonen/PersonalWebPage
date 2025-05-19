@@ -1,12 +1,13 @@
 import type { ReactNode } from "react";
-import { ASSETS } from "../../config/assets.config";
+// import { ASSETS } from "../../config/assets.config";
 import "./Showcase.css";
-import ShowcaseDisplay from "../../component/ShowcaseDisplay/ShowcaseDisplay";
+// import ShowcaseDisplay from "../../component/ShowcaseDisplay/ShowcaseDisplay";
 
 export default function Showcase(): ReactNode {
   return (
     <div>
-      <ShowcaseDisplay
+      showcase test
+      {/* <ShowcaseDisplay
         src={ASSETS.showcase.market}
         alt="Market"
       />
@@ -55,7 +56,7 @@ export default function Showcase(): ReactNode {
       <ShowcaseDisplay
         src={ASSETS.showcase.athleteCloseup}
         alt="Athlete closeup"
-      />
+      /> */}
     </div>
   );
 }
