@@ -5,17 +5,21 @@ export type AppPage = {
   link: string;
 }
 
+export const PAGE_HOME = 0;
+export const PAGE_PROJECTS = 1;
+export const PAGE_SHOWCASE = 2;
+
 export const APP_PAGES: AppPage[] = [
   {
     id: "page-home",
-    link: "/"
+    link: "/PersonalWebPage"
   },
   {
     id: "page-projects",
-    link: "/projects"
+    link: "/PersonalWebPage/projects"
   },
   {
     id: "page-showcase",
-    link: "/showcase"
+    link: "/PersonalWebPage/showcase"
   }
 ];

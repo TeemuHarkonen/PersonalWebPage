@@ -5,6 +5,7 @@ import Projects from "./layout/Projects/Projects";
 import Showcase from "./layout/Showcase/Showcase";
 import {LanguageProvider} from "./context/LanguageContext";
 import Footer from "./component/Footer/Footer";
+import { APP_PAGES, PAGE_HOME, PAGE_PROJECTS, PAGE_SHOWCASE } from "./config/pages.config";
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
         <Header />
       </header>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/showcase" element={<Showcase />} />
+        <Route path={APP_PAGES[PAGE_HOME].link} element={<Homepage />} />
+        <Route path={APP_PAGES[PAGE_PROJECTS].link} element={<Projects />} />
+        <Route path={APP_PAGES[PAGE_SHOWCASE].link} element={<Showcase />} />
       </Routes>
       <footer>
         <Footer />
